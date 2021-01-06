@@ -4,7 +4,7 @@ module.exports = {
     entry: './react_minesweeper.jsx',
     output: {
         path: path.resolve(__dirname), 
-        file: 'bundle.js'
+        filename: 'bundle.js'
     },
 
     devtool: 'source-map',

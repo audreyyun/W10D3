@@ -1,0 +1,19 @@
+.row{
+    width: 300px
+}
+
+.explored {
+    width: 30px
+}
+
+.flagged {
+    width: 30px
+}
+
+.bombed {
+    width: 30px
+}
+
+.unexplored {
+    width: 30px
+}
