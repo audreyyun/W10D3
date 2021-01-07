@@ -1,19 +1,31 @@
 .row{
-    width: 300px
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.explored {
-    width: 30px
+ .explored {
+    width: 100px;
+    height: 50px;
+    border-style: outset;
 }
 
 .flagged {
-    width: 30px
+    width: 100px;
+    height: 50px;
+    border-style: outset;
 }
 
 .bombed {
-    width: 30px
+    width: 100px;
+    height: 50px;
+    border-style: outset;
 }
 
 .unexplored {
-    width: 30px
-}
+    width: 100px;
+    height: 50px;
+    background-color: grey ;
+    border-style: inset;
+    
+} 
